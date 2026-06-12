@@ -149,7 +149,7 @@
 
 
         <div>
-            <label class="block text-sm font-medium text-gray-700">Departamento</label>
+            <label class="block text-sm font-medium text-gray-700">Departamento (Area)</label>
             
             <select name="department_id"
                 class="mt-1 w-full rounded-md border-gray-300 shadow-sm">
