@@ -23,7 +23,7 @@ return new class extends Migration
             $table->foreignId('role_id')
             ->after('employee_id')
             ->constrained('roles')
-            ->cascadeOnDelete();
+            ->restrictOnDelete();
 
         });
     }
